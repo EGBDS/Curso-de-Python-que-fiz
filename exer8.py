@@ -1,0 +1,5 @@
+medida = float(input('Digite a medida:'))
+km = (medida / 1000)
+cm = (medida * 100)
+mm = (medida * 1000)
+print('A medida {} corresponde a {}km, {}cm, {}mm'.format(medida,km,cm,mm))
